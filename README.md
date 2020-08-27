@@ -1,7 +1,7 @@
 # AES-RSA
 Implementación de Algoritmos de Cifrado AES / RSA.
 
-Author: Ingrid Pinedo
+Autor: Ingrid Pinedo
 
 1. npm install, para instalar las dependencias usadas.
 2. node app.js, para inicializar el servidor localhost en el puerto 3000.
