@@ -10,14 +10,18 @@ const privateDer = keyRSA.exportKey('private');
 console.log(publicDer);
 console.log(privateDer);
 
-const text = 'Secret information omg cant see this';
+const text = 'Secret information OMG cant see this';
 const encryptedTxt = keyRSA.encrypt(text, 'base64');
 
 console.log(encryptedTxt);
 
+const decryptedTxt = keyRSA.decrypt(encryptedTxt, 'utf8');
+
+console.log(decryptedTxt);
+
 // Insertar texto -> HTML
 document.getElementById("rsa-Cifrado").innerHTML = encryptedTxt;
-document.getElementById("rsa-Original").innerHTML = text;
+document.getElementById("rsa-Original").innerHTML = decryptedTxt;
 
 
 

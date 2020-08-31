@@ -1,12 +1,12 @@
 {
   "name": "aes-rsa-proy-ingrid",
   "version": "1.0.0",
-  "description": "Actividad 11: AES RSA.",
-  "main": "index.js",
+  "description": "Actividad 11: Implementación de algoritmos de cifrado AES / RSA.",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ingrid Pinedo",
+  "author": "Ingrid Pinedo Pantoja",
   "license": "ISC",
   "dependencies": {
     "browserify": "^16.5.2",
